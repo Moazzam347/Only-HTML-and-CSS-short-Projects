@@ -1,0 +1,24 @@
+CSS properties which are used in this project are:
+
+margin 
+padding
+position
+top
+left
+bottom
+box-sizing
+width
+height
+background
+border
+border-radius
+content
+transform
+z-index
+transform-origin
+overflow
+
+Selectors:
+1. element
+2. class
+3. pseudo (before and after)
