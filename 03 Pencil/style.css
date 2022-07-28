@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'verdana',sans-serif;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pencil {
+  width: 400px;
+  height: 15px;
+  background: #ffc334;
+  border-top: 15px solid #ffd268;
+  border-bottom: 15px solid #e3af38;
+}
+
+.pencil p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 8px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d09200;
+}
+.pencil::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -80px;
+    border-style: solid;
+    border-color: transparent #e29663 transparent transparent;
+    border-width: 25px 40px 20px;
+}
+.pencil::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -80px;
+    border-style: solid;
+    border-color: transparent #262626 transparent transparent;
+    border-width: 27px 40px 21px;
+    transform: scale(.3);
+}
+.top{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 15px;
+    width: 30px;
+    background: #ccc;
+    border-top: 15px solid #dedede;
+  border-bottom: 15px solid #b9bfbf;
+}
+.top::before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    right: -100%;
+    width: 150%;
+    height: 100%;
+    background-color: #d76f6e;
+        border-top: 15px solid #da8e8d;
+  border-bottom: 15px solid #c85957;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
